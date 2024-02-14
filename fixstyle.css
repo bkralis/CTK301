@@ -1,0 +1,58 @@
+h1 {
+    color:white;
+}
+
+#mainheader {
+    background-color:#b775e0;
+}
+
+a {
+    color:green;
+    text-decoration:none;
+}
+
+a:hover {
+    color:red;
+    text-decoration:underline;
+}
+
+a:visited {
+    color:purple;
+}
+
+#firesofpompeii {
+    color:blue;
+}
+
+span {
+    color:orange;
+}
+
+#inferno {
+    background-color:yellow;
+}
+
+#monologue {
+    color:red;
+}
+
+#fathersday {
+    color:yellow;
+    background-color:darkgreen;
+}
+
+#monologue2 {
+    background-color:lightgreen;
+}
+
+#doctorsdaughter {
+    color:red;
+}
+
+#imthedoctor {
+    color:blue;
+}
+
+div {
+    background-color:yellow;
+}
