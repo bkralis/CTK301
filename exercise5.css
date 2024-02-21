@@ -1,0 +1,33 @@
+body {
+    background-color: #eeeeee;
+}
+
+nav ul {
+    font-family: courier, sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 0;
+    padding: 0;
+}
+
+nav li {
+    border: 1px solid black;
+    width: 250px;
+    margin: 10px;
+    display: inline-block;
+}
+
+nav ul a {
+    text-align: center;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    background-image: linear-gradient(to bottom, #cd1e1e, #bb1818, #aa1312, #990c0c, #880606);
+}
+
+nav ul a:hover {
+    background-color: blue;
+    background-image: linear-gradient(to top, #cd1e1e, #bb1818, #aa1312, #990c0c, #880606);
+}
