@@ -1,0 +1,72 @@
+body {
+    font-family:arial,helvetica,sans-serif;
+    background-image:url(Illinois_State_University_banner.png);
+    background-repeat:no-repeat;
+    background-position:top right;
+}
+
+#paragraph2 {
+    text-align:center;
+}
+
+#paragraph3 {
+    text-align:center;
+}
+
+#justify {
+    text-align:justify;
+}
+
+.imagebox {
+    border:10px solid black;
+    background-color:yellow;
+    padding:6px;
+}
+
+h1 {
+    color:orange;
+    font-style:italic;
+    font-weight:normal;
+}
+
+h2 {
+    color:orange;
+    font-style:italic;
+    font-weight:normal;
+}
+
+h3 {
+    color:orange;
+    font-style:italic;
+    font-weight:normal;
+}
+
+#main {
+    color:purple;
+}
+
+ul {
+    background-color:azure;
+}
+
+p {
+    color:darkgoldenrod;
+    background-color:lightgray;
+}
+
+span {
+    color:red;
+    text-decoration:underline;
+}
+
+a {
+    color:red;
+}
+
+a:hover {
+    color:yellow;
+}
+
+a:visited {
+    color:green;
+}
