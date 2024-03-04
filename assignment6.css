@@ -1,0 +1,121 @@
+body {
+    font-family: helvetica, sans-serif;
+    background-image: url(a62.png);
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 1150px;
+    border: 4px solid black;
+    margin: 1em auto;
+    background-color: white;
+    padding: 0em;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-bottom: 0;
+}
+
+
+
+h1 {
+    color: white;
+    background-color: black;
+    font-weight: normal;
+    grid-column: span 12;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    padding: 1em;
+}
+
+h2 {
+    border-bottom: 4px solid black;
+    padding-bottom: 10px;
+    grid-column: span 10;
+}
+
+nav {
+    grid-column: span 2;
+    padding-left: 1em;
+}
+
+nav ul {
+    font-weight: normal;
+    color: white;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    width: 150px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+
+nav ul a {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+}
+
+nav ul a:hover {
+    background-color: darkred;
+}
+
+main {
+    grid-column: span 10;
+    padding-right: 1em;
+}
+
+.floatimg {
+    float: left;
+    padding-right: 24px;
+    border: 4px solid black;
+    padding: 10px;
+    margin: 15px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-top: 3px;
+}
+
+#firstblock {
+    font-family: georgia, serif;
+    text-align: justify;
+    font-weight: bold;
+    grid-column: span 10;
+    margin-top: 10px;
+}
+
+#secondblock {
+    font-family: georgia, serif;
+    grid-column: span 10;
+}
+
+#secondblock a{
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+#secondblock a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+footer {
+    position: center;
+    text-align: center;
+    color: white;
+    background-color: red;
+    font-family: verdana, sans-serif;
+    font-style: italic;
+    border-top: 4px solid black;
+    grid-column: span 12;
+    width: 1150px;
+}
