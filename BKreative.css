@@ -1,0 +1,152 @@
+  body {
+    background-color: #999999;
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  }
+  
+  header {
+    margin-top: none;
+    grid-column: span 12;
+    text-align: center;
+  }
+  
+  #logo {
+    grid-column: span 12;
+    width: 75%;
+    margin-bottom: none;
+  }
+  
+  #mainimg {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    grid-column: span 12;
+    width: 95%;
+    background-color: #202020;
+    padding: 30px;
+  }
+  
+  #carousel {
+    grid-column: span 12;
+    text-align: center;
+  }
+    
+  nav {
+    grid-column: span 12;
+    text-align: center;
+  }
+    
+  nav ul {
+    margin-top: none;
+    list-style: none;
+  }
+    
+  nav li {
+    font-family: "Saira Condensed", sans-serif;
+    font-size: 20px;
+    color: #202020;
+    display: inline-block;
+  }
+    
+  nav li a {
+    color: #202020;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  nav li a:hover {
+    text-decoration: underline;
+  }
+  
+  .dash {
+    font-family: "Saira Condensed", sans-serif;
+    color: #202020;
+    display: inline-block;
+  }
+  
+  main {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+  }
+
+  #main2 {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-column-gap: 24px;
+  }
+  
+  .img2 {
+    grid-column: span 6;
+    width: 80%;
+    margin: 5px;
+    margin-left: 55px;
+    border-radius: 18px;
+    margin-bottom: none;
+  }
+
+  .img {
+    grid-column: span 3;
+    width: 100%;
+    margin: 5px;
+    margin-left: 0px;
+    border-radius: 18px;
+    margin-bottom: none;
+  }
+  
+  p {
+    grid-column: span 3;
+    font-family: "Saira Condensed", sans-serif;
+    color: #202020;
+  }
+  
+.bold {
+  font-weight: bold;
+}
+
+#filmdescription {
+  grid-column: span 12;
+  background-color: #202020;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+iframe {
+  float: left;
+  width: 50%;
+  margin-right: 12px;
+}
+
+#filmdescription p {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px;
+  margin-top: 0;
+  height: 180px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.italics {
+  font-style: italic;
+}
