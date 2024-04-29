@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BKreative</title>
+	<link href="assignment12.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+</head>
+	<body>
+	<div id="wrapper">
+		<header>
+		<a href="assignment12.html"><img id="logo" src="BKreative Logo.png" alt="BKreative"></a>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#"> Photo </a></li>
+				<p class="dash"> - </p>
+				<li><a href="assignment12_film.html"> Film </a></li>
+				<p class="dash"> - </p>
+				<li><a href="#"> Contact </a></li>
+			</ul>
+		</nav>
+
+	<div id="carousel" class="f-carousel">
+		<div class="f-carousel__slide"><img src="BKreative Carousel Image.png"></div>
+		<div class="f-carousel__slide"><img src="BKreative Carousel Image (1).png"></div>
+		<div class="f-carousel__slide"><img src="BKreative Carousel Image (2).png"></div>
+		<div class="f-carousel__slide"><img src="BKreative Carousel Image (3).png"></div>
+	</div>
+			
+	<main>
+		<section>
+			<img class="img" src="BKreative Page Image.png" alt="Embrace Screenshot">
+			<p> <span class="bold"> NEW! </span> We are beyond excited to premier our latest short film, Embrace (2024), written and directed by Braden Kralis. The two-minute long narrative follows a couple experiencing their last moments together before impending doom. Streaming now on YouTube. </p>
+		</section>
+		
+		<section>
+			<img class="img" src="BKreative Page Image 3.png" alt="Ground Floor Media Logo">
+			<p> A classic BKreative film turns one and a half years old today! Hang in There (2022), follows a young man as he decides to look upon his gloomy world with a brand new mindset. As he ventures out, he finds that his own positive mindset inspires others to have a more positive outlook as well. </p>
+		</section>
+		
+		<section>
+			<img class="img" src="BKreative Page Image 4.png" alt="Hang in There Screenshot">
+			<p>  The team continues to grow! Long time collaborator, Adam Bloemer, has officially joined the BKreative team in our Wedding Photography department. Now, Braden and Adam join forces to bring the magic of their films to your own special day. See more in the “Photo” tab. </p>
+		</section>
+
+		<section>
+			<img class="img" src="BKreative Page Image 2.png" alt="Hang in There Screenshot">
+			<p> Ground Floor Media is hard at work on their newest film, Let’s Watch TV (2024)! This fully animated film explores the bizarre, corrupt, and addictive world of television through the eyes of a young boy. Stay tuned for weekly updates! </p>
+		</section>
+
+	</main>
+	</div>
+
+	<script>
+		const container = document.getElementById("carousel");
+		const options = { infinite: false };
+		new Carousel(container, options);
+	</script>
+
+</body>
+</html>
