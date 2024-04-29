@@ -4,6 +4,7 @@ body {
 
 #wrapper {
   margin: 24px auto;
+  margin-bottom: 0px;
   width: 1200px;
   border: 1px solid black;
   padding: 24px;
@@ -139,6 +140,7 @@ font-weight: bold;
   background-color: #202020;
   padding: 12px;
   margin-bottom: 20px;
+  padding-bottom: 0px;
   }
 
 iframe {
@@ -153,6 +155,18 @@ iframe {
   float: right;
   width: 50%;
   border: 1px solid #ffffff;
+  padding-bottom: 0px;
+  margin-left: 20px;
+}
+
+#contactimg {
+  display: block;
+  grid-column: span 6;
+  float: right;
+  width: 50%;
+  padding-bottom: 0px;
+  margin-left: 20px;
+  margin-bottom: 12px;
 }
 
 #filmdescription p {
@@ -187,4 +201,33 @@ h1 {
 
 .italics {
 font-style: italic;
+}
+
+footer {
+  margin: 24px auto;
+  margin-top: 0px;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #202020;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+footer p {
+  font-family: "Saira Condensed", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+footer p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  text-decoration: underline;
 }
